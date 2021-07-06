@@ -1,9 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .flex-container {
@@ -26,10 +31,21 @@ h1 {
 }
 
 .link-button {
+    display: inline-block;
+    margin-top: 25px;
     background-image: linear-gradient(to right, orange, red);
     padding: 10px 30px;
     text-decoration: none;
     color: #ffffff;
     border-radius: 20px;
-    
+    box-shadow: 0 0 25px;
+}
+
+.about-me {
+    background: url(../images/shapes/bg.png) no-repeat;
+    background-size: cover;
+}
+
+.about-me img {
+    width: 70%;
 }
