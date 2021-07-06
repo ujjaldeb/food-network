@@ -4,11 +4,26 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 h2 {
     font-size: 40px;
+}
+nav {
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 5px 0;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+nav a:hover{
+    font-weight: 700;
 }
 
 .flex-container {
@@ -54,8 +69,8 @@ h2 {
     width: 33%;
     box-shadow: 0 0 10px grey;
     border-radius: 30px;
-    padding: 18px;
-    margin: 27px;
+    padding: 20px;
+    margin: 36px;
 }
 
 .one-third img{
@@ -76,7 +91,7 @@ h2 {
     justify-content: space-around;
     box-shadow: 0 0 12px gray;
     border-radius: 15px;
-    width: 80%;
+    width: 95%;
     margin: 0 auto 80px;
 }
 
@@ -88,4 +103,11 @@ h2 {
 .social-media-counter p {
     margin-top: 0;
     margin-bottom: 34px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 50px 0;
+    color: #5c5c5c;
+    text-align: center;
 }
