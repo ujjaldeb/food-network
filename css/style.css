@@ -14,7 +14,7 @@ h2 {
 .flex-container {
     display: flex;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .half-width {
@@ -48,4 +48,26 @@ h2 {
 
 .about-me img {
     width: 70%;
+}
+
+.one-third {
+    width: 33%;
+    box-shadow: 0 0 10px grey;
+    border-radius: 30px;
+    padding: 18px;
+    margin: 27px;
+}
+
+.one-third img{
+    width: 100%;
+}
+
+.my-recipes h2 {
+    text-align: center;
+}
+
+.my-recipes .para-top {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
 }
