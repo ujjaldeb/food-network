@@ -71,3 +71,21 @@ h2 {
     margin: auto;
     text-align: center;
 }
+
+.social-media-counter {
+    justify-content: space-around;
+    box-shadow: 0 0 12px gray;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto 80px;
+}
+
+.social-media-counter h2 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.social-media-counter p {
+    margin-top: 0;
+    margin-bottom: 34px;
+}
